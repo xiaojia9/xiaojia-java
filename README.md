@@ -300,10 +300,9 @@ tlias:
 
 | 产物 | 位置 |
 | --- | --- |
-| 后端可执行 jar | `tlias-backend/target/tlias-backend.jar` |
-| 前端静态资源 | `tlias-frontend/dist` |
+| 后端 | `tlias-backend` |
+| 前端 | `tlias-frontend` |
 | 数据库脚本 | `sql/testdemo.sql` |
 | 界面截图 | `docs/screenshots/` |
 
-> 交付目录中已包含 `tlias-frontend/node_modules` 与 `tlias-frontend/dist`，可直接 `npm run dev` 或部署 `dist`；如需精简可自行删除后重新 `npm install` / `npm run build`。
 
