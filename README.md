@@ -97,7 +97,7 @@ mysql -h127.0.0.1 -P3306 -uroot -p < sql/testdemo.sql
 ```yaml
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/testdemo
+    url: jdbc:mysql://localhost:3306/架构名字
     username: root
     password: 123456
 ```
