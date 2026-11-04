@@ -2,9 +2,9 @@
 
 严格按照 `api接口文档.md`（Tlias 接口文档）实现的完整前后端分离项目：
 
-- **后端**：Java 17 + Spring Boot 3.2 + MyBatis + PageHelper + MySQL 8 + JWT + 阿里云 OSS
-- **前端**：Vue 3 + Vite 5 + Element Plus + Axios + Vue Router（天蓝色主题、登录页粒子特效）
-- **数据库**：MySQL 8，库名 `testdemo`
+- **后端**：Java 17 + Spring Boot 3.2 + MyBatis + PageHelper + MySQL 8 + 阿里云 OSS
+- **前端**：Vue 3 + Vite 5 + Element Plus + Axios + Router
+- **数据库**：MySQL 8
 
 ---
 
@@ -97,7 +97,7 @@ mysql -h127.0.0.1 -P3306 -uroot -p < sql/testdemo.sql
 ```yaml
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/架构名字
+    url: jdbc:mysql://localhost:3306/库名
     username: root
     password: 123456
 ```
