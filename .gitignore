@@ -1,0 +1,24 @@
+# SpringBoot后端
+target/
+*.class
+*.log
+hs_err_pid*
+
+# Vue前端
+node_modules/
+dist/
+.npm
+.eslintcache
+.env
+.env.*
+
+# IDEA
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
