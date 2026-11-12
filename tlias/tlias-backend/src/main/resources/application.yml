@@ -72,7 +72,7 @@ tlias:
     access-key-id: ${OSS_ACCESS_KEY_ID}
     access-key-secret: ${OSS_ACCESS_KEY_SECRET}
     # Bucket 名称
-    bucket-name: xiaojia-java-01
+    bucket-name: 
     # 上传目录前缀，例如 tlias/
     dir: tlias/
     # 访问域名（可选）：例如 https://your-bucket.oss-cn-hangzhou.aliyuncs.com
